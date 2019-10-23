@@ -670,11 +670,10 @@ fieldset {
 
 pre {
     -webkit-overflow-scrolling: touch;
-    background-color: whitesmoke;
-    color: #39486f;
+    color: #dfdfdf;
     font-size: 0.875em;
     overflow-x: auto;
-    padding: 1.25rem 1.5rem;
+    padding: 0.7rem 0rem;
     white-space: pre;
     word-wrap: normal
 }
@@ -12260,7 +12259,7 @@ print {
 }
 
 header {
-    margin: 30px 135px 100px 135px;
+    margin: 30px 135px 50px 135px;
     min-height: 160px
 }
 
@@ -12556,6 +12555,12 @@ main.home .section2.space {
 @media screen and (max-width: 1024px) {
     main.home .space {
         margin-top: 620px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main.home .space {
+        margin-top: 50px
     }
 }
 
